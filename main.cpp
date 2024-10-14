@@ -1,7 +1,12 @@
 #include <iostream>
 using namespace std;
+void helloWorld();
 
 int main(){
-    cout << "hello world" << endl;
+    helloWorld();
     return 0;
+}
+
+void helloWorld(){
+    cout << "hello world" << endl;
 }
